@@ -60,6 +60,7 @@ Using the database application, users will be able to seamlessly access their pe
         -   Can also change port for IP 127.0.0.1 (localhost) to 1433 for redundancy.
     -   Go to Services, and find SQLEXPRESS and restart it
     -   Also under Services, ensure the SQL Server Browser is Enabled on port 1433 and any other active SQL server is not on port 1433.
+- To fill database with pre-made data go to `data-reset/Database Reset File.sql` and copy paste those queries into MS SQL
 
 ## Entity Relationship Diagram
 
